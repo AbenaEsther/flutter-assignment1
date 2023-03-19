@@ -25,7 +25,7 @@ class Forgotten_PasswordView extends StatelessWidget {
                 "Select which contact details should we use send your password"),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.1,
-            ),
+            ), //SizedBox
             Form(
                 child: Column(
               children: [
